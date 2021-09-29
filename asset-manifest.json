@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/ecommerce/static/js/main.a44b6dd3.chunk.js",
+    "main.js.map": "/ecommerce/static/js/main.a44b6dd3.chunk.js.map",
+    "runtime-main.js": "/ecommerce/static/js/runtime-main.53b9167a.js",
+    "runtime-main.js.map": "/ecommerce/static/js/runtime-main.53b9167a.js.map",
+    "static/css/2.786ae0dd.chunk.css": "/ecommerce/static/css/2.786ae0dd.chunk.css",
+    "static/js/2.b5b843c9.chunk.js": "/ecommerce/static/js/2.b5b843c9.chunk.js",
+    "static/js/2.b5b843c9.chunk.js.map": "/ecommerce/static/js/2.b5b843c9.chunk.js.map",
+    "index.html": "/ecommerce/index.html",
+    "static/css/2.786ae0dd.chunk.css.map": "/ecommerce/static/css/2.786ae0dd.chunk.css.map",
+    "static/js/2.b5b843c9.chunk.js.LICENSE.txt": "/ecommerce/static/js/2.b5b843c9.chunk.js.LICENSE.txt",
+    "static/media/butterfly.093ba016.png": "/ecommerce/static/media/butterfly.093ba016.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.53b9167a.js",
+    "static/css/2.786ae0dd.chunk.css",
+    "static/js/2.b5b843c9.chunk.js",
+    "static/js/main.a44b6dd3.chunk.js"
+  ]
+}
