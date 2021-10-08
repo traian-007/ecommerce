@@ -1,0 +1,55 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "shoes",
+        "price": 25,
+	"description": "Running shoes",
+        "image": "https://freepngimg.com/thumb/shoes/112098-pic-converse-black-shoes-free-hd-image.png"
+      },
+      {
+        "id": 2,
+        "name": "book",
+        "price": 10,
+	"description": "IT book",
+        "image": "https://freepngimg.com/thumb/book/16-green-book-png-image-image.png"
+      },
+      {
+        "id": 3,
+        "name": "bag",
+        "price": 15,
+	"description": "Nice bag",
+        "image": "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+      },
+      {
+        "id": 4,
+        "name": "coat",
+        "price": 39,
+	"description": "Beautiful coat",
+        "image": "https://freepngimg.com/thumb/sleeping_beauty/30927-1-sleeping-beauty-clipart.png"
+      },
+      {
+        "id": 5,
+        "name": "laptop",
+        "price": 39,
+	"description": "Modern laptop",
+        "image": "https://freepngimg.com/thumb/technology/33477-3-asus-laptop-transparent-background.png"
+      },
+      {
+        "id":6,
+        "name": "coat",
+        "price": 39,
+	"description": "Econom lamp",
+        "image": "https://freepngimg.com/thumb/lamp/52026-6-led-track-light-picture-download-free-image.png"
+      },
+      {
+        "id": 7,
+        "name": "coat",
+        "price": 39,
+	"description": "Yellow flower",
+        "image": "https://cdn.pixabay.com/photo/2021/08/15/06/54/sunflower-6546993_960_720.jpg"
+      }
+    ]
+  }
+
+

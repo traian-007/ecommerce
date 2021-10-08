@@ -8,7 +8,7 @@ const Products = ({products}) => {
     const search = useSelector(state => state.search)
     return (
         <div style={{padding: 40}}>
-            <Row gutter={[100, { xs: 2, sm: 8, md: 12, lg: 18 }]}>
+            <Row gutter={[10, 50]}>
                 {products.filter((product) => {
                     if(search.search === '') {
                         return product
@@ -16,7 +16,7 @@ const Products = ({products}) => {
                         return product
                     }
                 }).map((product) => (
-                    <Col key={product.id} className="gutter-row" span={6}>
+                    <Col key={product.id} className="gutter-row" lg={{ span: 6}} md={{ span: 8 }} sm={{ span: 12 ,offset: 0}} xs={{ span: 24,offset: 0}} wrap >
                         <Product product={product}/>
                     </Col>
                     
@@ -27,3 +27,5 @@ const Products = ({products}) => {
 }
 
 export default Products
+
+//lg={{ span: 6, offset: 0 }} md={{ span: 6, offset: 1 }} sm={{ span: 6, offset: 0 }} xs={{ offset: 3}}

@@ -26,10 +26,10 @@ const CartPage = () => {
             <Navbar />
             { product && <Products products={product} />}
             <div style={{display: 'flex'}}>
-                <Title level={2} style={{width: '80%', justifyContent:'space-between'}}>Subtotal: ${total.total}</Title>
+                <Title level={2} style={{width: '80%',paddingLeft: 40}}>Subtotal: ${total.total}</Title>
                 <div>
-                 <Button type="primary" size={size} style={{backgroundColor: 'red',marginRight: '20px'}} onClick={emptyCart}>Empty Cart</Button>
-                 <Link to="/"><Button type="primary" size={size}>Home Page</Button></Link>
+                 <Button type="primary" size={size} style={{backgroundColor: 'red',marginRight: '20px',marginBottom: 20,borderRadius: 10,borderStyle: 'none'}} onClick={emptyCart}>Empty Cart</Button>
+                 <Link to="/"><Button type="primary" size={size} style={{borderRadius: 10,borderStyle: 'none'}}>Home Page</Button></Link>
                 </div>
             </div>
             

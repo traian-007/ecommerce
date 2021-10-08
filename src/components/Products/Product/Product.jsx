@@ -19,20 +19,23 @@ const Product = ({product}) => {
         setCount(prev => prev +1)
         dispatch(getProduct(product))
         dispatch(sumTotal(product.price))
-        
     }
     return (
         <>
             <Card
                 hoverable
-                cover={<Image alt="example" src={product.src} style={{height: '280px'}} />}
+                cover={<Image alt="example" src={product.src} style={{width: '100%',maxHeight: 442,minHeight: 424}}/>}
+                style={{maxWidth: '358',objectFit: 'contain'}}
             >
-                <Meta title={`$${product.price}`} style={{float: 'right'}}/>
-                <Meta title={product.name} description={product.description} style={{fontSize: '25px'}} />
-                <Badge count={count} offset={[3, 22]} style={{float: 'right'}} >
-                    <ShoppingCartOutlined  onClick={handleIncrement}  style={{marginLeft: '210px',fontSize: '1.5em'}}/>
-                </Badge>
-                
+                <div style={{display: 'flex',flexDirection: 'column',maxHeight: '100%'}}>
+                    <div style={{display: 'flex',justifyContent: 'space-between'}}>
+                        <Meta title={product.name} description={product.description} style={{fontSize: '25px'}} />
+                        <Meta title={`$${product.price}`} />
+                    </div>
+                    <Badge count={count} style={{marginLeft: 'auto'}}>
+                        <ShoppingCartOutlined  onClick={handleIncrement} style={{fontSize: '1.5em',position: 'absolute',right:0,bottom: 2}}/>
+                    </Badge>
+                </div>
             </Card>
         </>
     )
